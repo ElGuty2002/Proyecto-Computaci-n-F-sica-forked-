@@ -1,0 +1,195 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  margin: 0;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 8px;
+}
+#felicitacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -80px;
+}
+h3 {
+  text-align: center;
+  font-size: 13px;
+}
+
+#tarjeta-niño {
+  width: 306px;
+  height: 220px;
+  background: linear-gradient(
+    to right,
+    #a9cbff,
+    #458be7
+  ); /* De izquierda a derecha */
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+img {
+  width: 127px;
+}
+
+#img-fraccion {
+  width: 90px;
+  margin: -30px;
+}
+
+#cuestionario input[type="radio"] {
+  display: none;
+  margin-right: 5px; /* Espacio entre el botón y la etiqueta */
+}
+
+#cuestionario label {
+  display: inline; /* Asegura que las etiquetas se muestren en la misma línea */
+  margin-right: 15px;
+  font-size: 50px; /* Espacio entre las opciones */
+}
+
+h2 {
+  float: right;
+  margin-right: 150px;
+  font-size: 13px;
+}
+
+#cuestionario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#opcion label {
+  width: 200px;
+  display: block;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  font-size: 1.2em;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Efecto hover */
+#cuestionario label:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Estilo de la opción seleccionada */
+#cuestionario input[type="radio"]:checked + label {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+#boton-respuesta {
+  padding: 12px 20px;
+  font-size: 10px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #0066ff, #00ccff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 102, 255, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  text-transform: uppercase;
+  width: 140px;
+  height: 50px;
+}
+
+/* Efecto hover y active del botón */
+#boton-respuesta:hover {
+  background: linear-gradient(45deg, #0052cc, #00a3cc);
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 102, 255, 0.4);
+}
+
+#boton-respuesta:active {
+  transform: translateY(1px);
+  box-shadow: 0px 3px 8px rgba(0, 102, 255, 0.2);
+}
+table img {
+  width: 55px;
+  height: 95px;
+  object-fit: cover;
+}
+/* Estilo adicional para la tabla */
+table {
+  border-collapse: collapse;
+  width: 80%; /* Ajusta el tamaño según prefieras */
+  max-width: 500px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Opcional: Mejora visual del contenido de la tabla */
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table td {
+  background-color: #transparent;
+}000;
+}
+/* Centra el contenedor de la tabla */
+#contenido-resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 60px;
+}
+
+/* Estilos de la tabla */
+#tabla-puntuacion table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+}
+
+#tabla-puntuacion th,
+#tabla-puntuacion td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#tabla-puntuacion th {
+  background-color: #007bff;
+  color: white;
+}
+
+#tabla-puntuacion td {
+ 
+background-color: #f0f0f0;
+ text-align: center;
+  margin-right: 7px;
+  fze: 13px;
+3px;
+}

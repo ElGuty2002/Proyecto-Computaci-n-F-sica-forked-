@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/app3.css" />
+  </head>
+  <body>
+    <div id="contenedor-imagen">
+      <div id="tarjeta-niño">
+        <img src="./src/img/niño_preguntaa.png" alt="" />
+      </div>
+    </div>
+    <h1 id="texto">Simplifica la fracción que escaneaste</h1>
+    <img src="./src/img/42.png" alt="" id="img-fraccion" />
+    <div id="h2">
+      <h2 id="texto">Selecciona la respuesta correcta</h2>
+    </div>
+
+    <div id="cuestionario">
+      <div id="opcion">
+        <input type="radio" id="respuesta1" name="respuesta" value="opcion1" />
+        <label for="respuesta1"> 2/1</label><br />
+      </div>
+      <div id="opcion">
+        <input type="radio" id="respuesta2" name="respuesta" value="opcion2" />
+        <label for="respuesta2"> 1/1</label><br />
+      </div>
+      <div id="opcion">
+        <input type="radio" id="respuesta3" name="respuesta" value="opcion3" />
+        <label for="respuesta3"> 3/2</label><br />
+      </div>
+      <div id="opcion">
+        <input type="radio" id="respuesta4" name="respuesta" value="opcion4" />
+        <label for="respuesta4"> 2/2</label><br />
+      </div>
+    </div>
+    <button id="boton-respuesta">Validar</button>
+
+    <!-- Div para mostrar resultados -->
+    <div id="contenido-resultado" style="display: none">
+      <img src="./src/img/ga.png" alt="Prueba Imagen" />
+    </div>
+
+    <!-- Incluir SweetAlert y tu script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./logica3.js"></script>
+  </body>
+</html>

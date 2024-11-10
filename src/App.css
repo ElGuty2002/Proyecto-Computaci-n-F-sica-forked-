@@ -1,0 +1,98 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a5a0a0; /* Fondo gris claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  padding: 1em;
+  max-height: 5em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.content1 {
+  width: 100%;
+  padding: 1rem;
+}
+.ar-model-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+button {
+  width: 100%; /* Botón ocupa todo el ancho */
+  padding: 15px; /* Espaciado interno del botón */
+  background-color: #007bff; /* Color del botón */
+  color: white; /* Color del texto */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  margin: 10px 0; /* Espaciado vertical */
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px; /* Tamaño de fuente más grande para móviles */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Tamaño de fuente de los títulos */
+  }
+
+  iframe {
+    width: 100%; /* Asegura que el iframe sea responsivo */
+    height: auto; /* Mantiene la proporción */
+  }
+}
+.text-section {
+  margin: 20px 0; /* Espaciado vertical */
+  text-align: center; /* Centra el texto */
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.tarjeta-niño {
+  width: 400px;
+  height: 300px;
+  background: #695442;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}

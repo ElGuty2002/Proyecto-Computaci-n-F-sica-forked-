@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho y alto total */
+}
+
+body {
+  background-color: #ffffff; /* Color de fondo deseado */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  font-family: Arial, sans-serif;
+}
+.background-container,
+.backgroundPagina1 {
+  background-color: #d3d3d3; /* Color gris claro */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos */
+  justify-content: center; /* Alinea verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  box-sizing: border-box; /* Incluye padding en el tamaño total */
+}
+
+/* Centrado de texto e imágenes */
+h2,
+p,
+.logo img,
+.video iframe,
+.btn {
+  text-align: center; /* Centra el texto */
+  margin: 10px 0; /* Espaciado vertical */
+}
+
+.logo img,
+.video iframe {
+  max-width: 100%; /* Mantiene la imagen y video dentro de su contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+/* Botón AR */
+#arButton {
+  margin-top: 20px; /* Espaciado superior */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+}
+.welcome-container,
+.header,
+.Bmonitor {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.buttonInicio {
+  margin-top: 10px;
+  background-color: rgb(14, 102, 216);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 2em;
+  border: none;
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
